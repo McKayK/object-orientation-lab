@@ -55,7 +55,7 @@ const dog = {
 const favoriteThings = {
   band: 'The Beach Boys',
   food: 'Pizza',
-  person: 'Trevor',
+  person: 'Mother',
   book: 'The Stormlight Archive',
   movie: 'The Lord of the Rings',
   holiday: 'Christmas'
@@ -405,8 +405,7 @@ const shippingInfo = {
 //Code Here
 
 let helensInfo = {
-  ...contactInfo,
-  ...shippingInfo
+  ...contactInfo, ...shippingInfo
 }
 
 
@@ -480,6 +479,7 @@ const myFirstMotorcycle = new Motorcycle(1, 'blue', 500, 'Honda', true)
 */
 
 // myFirstMotorcycle.move(100)
+// console.log(myFirstMotorcycle)
 
 /*
   Let's make another class based off of Vehicle. 
